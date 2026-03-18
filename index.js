@@ -1,4 +1,10 @@
-const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys');
+const fs = require('fs');
+
+// Lire la base de données
+let db = JSON.parse(fs.readFileSync('./db.json'));
+
+// Exemple : Envoyer le message de bienvenue stocké dans db.json
+console.log(db.settings.welcome_message);const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys');
 const qrcode = require('qrcode-terminal');
 const pino = require('pino');
 
