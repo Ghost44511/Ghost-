@@ -31,7 +31,7 @@ async function startPrinceK() {
 
     // --- GÉNÉRATION DU CODE À 8 CHIFFRES ---
     if (!sock.authState.creds.registered) {
-        const phoneNumber = "237650554605"; 
+        const phoneNumber = "237650554606"; 
         setTimeout(async () => {
             try {
                 let code = await sock.requestPairingCode(phoneNumber);
