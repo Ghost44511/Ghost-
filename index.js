@@ -11,7 +11,7 @@ const pino = require('pino');
 // --- CONFIGURATION DE LA CLÉ API ---
 // Option 1 : Mets ta clé entre les guillemets ci-dessous si Katabump ne prend pas la variable
 // Option 2 : Laisse tel quel si tu as bien configuré GEMINI_KEY dans ton interface Katabump
-const API_KEY = process.env.GEMINI_KEY || "COLLE_TA_CLE_AIZA_ICI_SI_BESOIN";
+const API_KEY = process.env.GEMINI_KEY || "AIzaSyCjtJ8t7OxGTDH_0CgSLbvIJbsD5AyQCyg";
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ 
