@@ -1,15 +1,15 @@
 {
   "name": "prince-k-bot",
   "version": "1.0.0",
-  "description": "WhatsApp Bot pour Prince K",
+  "description": "WhatsApp Bot avec Gemini",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
-    "@hapi/boom": "^10.0.1",
-    "qrcode-terminal": "^0.12.0",
-    "pino": "^8.14.1"
+    "@whiskeysockets/baileys": "latest",
+    "@google/generative-ai": "latest",
+    "qrcode-terminal": "latest",
+    "@hapi/boom": "latest"
   }
 }
