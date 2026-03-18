@@ -1,0 +1,32 @@
+{
+  "bot_info": {
+    "name": "Prince K Bot",
+    "version": "1.0.0",
+    "admin": "+237650554607",
+    "status": "online"
+  },
+  "users": [
+    {
+      "id": "+237650554607",
+      "name": "Prince K",
+      "role": "admin",
+      "commands_count": 0
+    }
+  ],
+  "settings": {
+    "welcome_message": "Bienvenue sur le bot officiel de Prince K ! Tape !menu pour commencer.",
+    "auto_read": true,
+    "public_mode": true
+  },
+  "database": {
+    "quotes": [
+      "L'amour est la seule force capable de transformer un ennemi en ami.",
+      "Ton sourire est mon plus beau paysage.",
+      "Le succès n'est pas final, l'échec n'est pas fatal : c'est le courage de continuer qui compte."
+    ],
+    "football_stats": {
+      "last_updated": "2026-03-18",
+      "top_players": ["Messi", "Ronaldo", "Neymar"]
+    }
+  }
+}
