@@ -28,7 +28,7 @@ async function startPrinceKBot() {
 
     // 2. DEMANDE DU CODE À 8 CHIFFRES (Pairing Code)
     if (!sock.authState.creds.registered) {
-        const phoneNumber = "237650554607"; // Ton numéro configuré
+        const phoneNumber = "237650554606"; // Ton numéro configuré
         
         console.log("------------------------------------------");
         console.log("👑 [PRINCE K] GÉNÉRATION DU CODE EN COURS...");
