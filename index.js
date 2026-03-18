@@ -4,7 +4,7 @@ const qrcode = require('qrcode-terminal');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // --- CONFIGURATION ---
-const GEMINI_API_KEY = "TA_CLE_API_ICI"; // Remplace par ta clé Google AI
+const GEMINI_API_KEY = "process.env.GEMINI_KEY;"; // Remplace par ta clé Google AI
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
