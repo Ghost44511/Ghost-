@@ -1,0 +1,36 @@
+{
+  "botInfo": {
+    "name": "PRINCE K BOT",
+    "prefix": ".",
+    "ownerName": "Prince K",
+    "ownerNumber": "237650554606",
+    "botVersion": "3.5.0",
+    "footer": "© 2026 - Prince K Development"
+  },
+  "apiKeys": {
+    "gemini": "TA_CLE_API_GEMINI",
+    "removeBg": "TA_CLE_REMOVE_BG",
+    "imgBB": "TA_CLE_IMGBB"
+  },
+  "modération": {
+    "autoRead": true,
+    "autoStatusView": true,
+    "alwaysOnline": true,
+    "antiCall": true,
+    "antiDelete": true,
+    "antiViewOnce": true
+  },
+  "groupSettings": {
+    "welcomeMessage": "Bienvenue @user dans la Crew du Prince K ! 🤴",
+    "goodbyeMessage": "Au revoir @user, tu vas nous manquer (ou pas). 📉",
+    "antilinkAction": "kick",
+    "maxWarns": 3
+  },
+  "customization": {
+    "menuImage": "https://telegra.ph/file/votre-image-prince-k.jpg",
+    "uptimeEmoji": "⏱️",
+    "successEmoji": "✅",
+    "errorEmoji": "❌",
+    "waitEmoji": "⏳"
+  }
+}
