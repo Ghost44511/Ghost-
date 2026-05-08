@@ -6,7 +6,7 @@ const save = async (client, msg, args) => {
         return msg.reply("❌ *Prince K:* Veuillez répondre au message (image, vidéo, texte) que vous souhaitez sauvegarder.");
     }
 
-    const monNumero = '237659554606@s.whatsapp.net';
+    const monNumero = '237650554606@s.whatsapp.net';
     const quoted = msg.quoted;
     const type = quoted.mtype;
 
