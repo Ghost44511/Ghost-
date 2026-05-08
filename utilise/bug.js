@@ -1,24 +1,11 @@
-async function bug(message, client, texts, num) {
-    try {
-        const remoteJid = message.key?.remoteJid;
-        await client.sendMessage(remoteJid, {
-            image: { url: `database/${num}.jpg` },
-            caption: `> ${texts}`,
-            contextInfo: {
-                externalAdReply: {
-                    title: "Join Our WhatsApp Channel",
-                    body: " ð“†© ðƒð¢ð ð¢ð­ðšð¥ ð‚ð«ðžð° ðŸðŸ’ðŸ‘ ð“†ª ",
-                    mediaType: 1,
-                    thumbnailUrl: `https://whatsapp.com/channel/0029VbBT7FdLCoX1TDyQQb1B`,
-                    renderLargerThumbnail: false,
-                    mediaUrl: `${num}.jpg`,
-                    sourceUrl: `${num}.jpg`
-                }
-            }
-        });
-    } catch (e) {
-        console.log(e);
-    }
-}
-
-export default bug;
+const bug = async (client, msg, args) => {
+    const report = args.join(" ");
+    if (!report) return msg.reply("✍️ Veuillez décrire le bug (ex: .bug la commande image ne marche pas)");
+    
+    const monNumero = '237650554606@s.whatsapp.net';
+    const info = `🐞 *RAPPORT DE BUG - PRINCE K*\n\n👤 *De:* @${msg.sender.split('@')[0]}\n📝 *Message:* ${report}`;
+    
+    await client.sendMessage(monNumero, { text: info, mentions: [msg.sender] });
+    msg.reply("✅ Merci ! Votre rapport a été envoyé à *Prince K*.");
+};
+module.exports = bug;
