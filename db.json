@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "botName": "PRINCE K SUPRÊME",
+    "prefix": ".",
+    "owner": "237650554606@s.whatsapp.net",
+    "status": "online",
+    "autoRead": true,
+    "selfMode": false,
+    "publicMode": true
+  },
+  "users": {
+    "237650554606@s.whatsapp.net": {
+      "name": "Prince K",
+      "limit": "Infinity",
+      "xp": 10000,
+      "level": 100,
+      "warns": 0,
+      "isBanned": false,
+      "isPremium": true
+    }
+  },
+  "groups": {
+    "default": {
+      "name": "Crew Prince K",
+      "antilink": true,
+      "antispam": true,
+      "welcome": "Bienvenue dans la Crew ! 🤴",
+      "goodbye": "Un membre nous a quitté... 📉",
+      "mute": false,
+      "nsfw": false,
+      "onlyAdmin": false
+    }
+  },
+  "database": {
+    "commandsExecuted": 0,
+    "runtime": 0,
+    "lastBackup": "2026-05-08"
+  },
+  "anonymous_reports": []
+}
